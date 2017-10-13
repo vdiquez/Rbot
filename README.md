@@ -15,7 +15,7 @@ Para poder compilar correctamente debe agregarse el .jar ubicada en la carpeta "
 
 Se debe ejecutar la clase "VentanaTodo". En esta clase se levantan dos hilos.
   * VentanaTodo(), carga el universo virtual donde se situa el robot.
-	* ProgramaChat(), carga la camara virtual del robot y control de mando.
+  * ProgramaChat(), carga la camara virtual del robot y control de mando.
   
 En ambas ventanas se tiene el menú "Ubicacion y Destino", el cual debe abrirse y tipear en los campos correspondientes a la ip y puerto, de la otra ventana.
 
