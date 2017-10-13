@@ -3,6 +3,10 @@ Robot Virtual Controlado a Distancia (Java3D)
 
 Software resultado de la tesis de grado de Victor Ocanto y Ronald Verenzuela en el año 2007 en el Instituto Universitario Experimental de Tecnología de La Victoria (IUTLV), actualmente UPTA.
 
+Tutores:
+- Ing. Andrés Castillo.
+- Ing. Felipe Pacheco.
+
 Instalación necesaria:
 - Java SE Development Kit 8 Downloads. http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 - Java 3D 1.5.1. http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-java-client-419417.html#java3d-1.5.1-oth-JPR
