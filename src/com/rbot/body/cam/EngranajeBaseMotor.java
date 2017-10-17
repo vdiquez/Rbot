@@ -1,9 +1,12 @@
-package com.rbot.body.cam.pieces;
+package com.rbot.body.cam;
 
 import ncsa.j3d.loaders.ModelLoader;
+
 import javax.media.j3d.*;
 import java.io.*;
+
 import com.sun.j3d.loaders.*;
+
 import javax.vecmath.*;
 
 public class EngranajeBaseMotor extends BranchGroup {
@@ -31,7 +34,7 @@ public class EngranajeBaseMotor extends BranchGroup {
 
     public BranchGroup createSceneGraph2() {
         ModelLoader loader = new ModelLoader();
-        Scene s = null;
+        Scene s;
         try {
             s = loader.load("piezas/Engranaje Base-Motor.3ds");
             return s.getSceneGroup();

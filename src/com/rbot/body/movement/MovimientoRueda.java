@@ -1,12 +1,7 @@
 package com.rbot.body.movement;
 
-import ncsa.j3d.loaders.ModelLoader;
-
 import javax.media.j3d.*;
 import javax.vecmath.*;
-import java.io.*;
-
-import com.sun.j3d.loaders.*;
 
 public class MovimientoRueda extends BranchGroup {
     Rueda rd;

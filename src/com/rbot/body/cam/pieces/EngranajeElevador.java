@@ -47,7 +47,7 @@ public class EngranajeElevador extends BranchGroup {
 
     public BranchGroup createSceneGraph2() {
         ModelLoader loader = new ModelLoader();
-        Scene s = null;
+        Scene s;
         try {
             s = loader.load("piezas/Engranaje Elevador.3ds");
             return s.getSceneGroup();

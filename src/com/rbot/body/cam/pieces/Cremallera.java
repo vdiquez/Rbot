@@ -1,7 +1,7 @@
 package com.rbot.body.cam.pieces;
 
-import com.rbot.body.cam.Camara;
 import ncsa.j3d.loaders.ModelLoader;
+
 import javax.media.j3d.*;
 import javax.vecmath.*;
 import java.io.*;
@@ -46,7 +46,7 @@ public class Cremallera extends BranchGroup {
 
     public BranchGroup CargarBase() {
         ModelLoader loader = new ModelLoader();
-        Scene s = null;
+        Scene s;
         try {
             s = loader.load("piezas/Cremallera final.3ds");
             return s.getSceneGroup();
@@ -57,7 +57,6 @@ public class Cremallera extends BranchGroup {
     }
 
     public void rotarEjeZ(float DezZ) {
-        System.out.println("Quiero Subir");
         trans.setTranslation(new Vector3f(0.0f, 0.0f, (DezZ - refZ1)));
         utility.mul(trans);
         tg.setTransform(utility);

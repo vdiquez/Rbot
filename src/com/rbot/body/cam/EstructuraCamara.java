@@ -1,5 +1,7 @@
-package com.rbot.body.cam.pieces;
+package com.rbot.body.cam;
 
+import com.rbot.body.cam.pieces.Cremallera;
+import com.rbot.body.cam.pieces.EngranajeElevador;
 import ncsa.j3d.loaders.ModelLoader;
 
 import javax.media.j3d.*;
@@ -47,7 +49,7 @@ public class EstructuraCamara extends BranchGroup {
 
     public BranchGroup CargarBase() {
         ModelLoader loader = new ModelLoader();
-        Scene s = null;
+        Scene s;
         try {
             s = loader.load("piezas/Base final.3ds");
             return s.getSceneGroup();
@@ -58,7 +60,6 @@ public class EstructuraCamara extends BranchGroup {
     }
 
     public void rotarEjeZ(float giroEjeX) {
-        System.out.println("Quiero Girar");
         trans.rotZ((giroEjeX - refX) * Math.PI / 180.0d);
         trans1.mul(trans);
         tg.setTransform(trans1);

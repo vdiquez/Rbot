@@ -1,4 +1,4 @@
-package com.rbot.body.cam;
+package com.rbot.body.cam.pieces;
 
 import ncsa.j3d.loaders.ModelLoader;
 
@@ -15,7 +15,7 @@ public class Camara extends BranchGroup {
 
     public Camara() {
         refY = 0;
-        BranchGroup scene = CargarBase();
+        BranchGroup scene = cargarBase();
 
         tg = new TransformGroup();
         tg.setCapability(TransformGroup.ALLOW_TRANSFORM_WRITE);
@@ -44,9 +44,9 @@ public class Camara extends BranchGroup {
         this.addChild(tg);
     }
 
-    public BranchGroup CargarBase() {
+    public BranchGroup cargarBase() {
         ModelLoader loader = new ModelLoader();
-        Scene s = null;
+        Scene s;
         try {
             s = loader.load("piezas/Camara1.3ds");
             return s.getSceneGroup();
@@ -57,7 +57,6 @@ public class Camara extends BranchGroup {
     }
 
     public void rotarEjeY(double giroEjeY) {
-        System.out.println("Quiero Girar");
         trans1.rotZ((giroEjeY - refY) * Math.PI / 180.0d);
         utility.mul(trans1);
         tg.setTransform(utility);

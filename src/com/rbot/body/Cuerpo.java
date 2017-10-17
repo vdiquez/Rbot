@@ -1,9 +1,9 @@
 package com.rbot.body;
 
-import com.rbot.body.cam.pieces.EstructuraCamara;
+import com.rbot.body.cam.EstructuraCamara;
 import com.rbot.body.movement.*;
 import com.rbot.position.Posicionamiento;
-import com.rbot.body.cam.pieces.EngranajeBaseMotor;
+import com.rbot.body.cam.EngranajeBaseMotor;
 import ncsa.j3d.loaders.ModelLoader;
 
 import javax.media.j3d.*;
@@ -372,7 +372,7 @@ public class Cuerpo extends BranchGroup {
 
     public BranchGroup createSceneGraph() {
         ModelLoader loader = new ModelLoader();
-        Scene s = null;
+        Scene s;
         try {
             s = loader.load("piezas/Cuerpo Robot Pintado.3ds");
             return s.getSceneGroup();

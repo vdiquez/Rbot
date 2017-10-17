@@ -30,7 +30,7 @@ public class Robot extends BranchGroup
 	public BranchGroup createSceneGraph()
 	{
 		ModelLoader loader = new ModelLoader();
-		Scene s = null;
+		Scene s;
 		try
 		{
 			s =  loader.load("piezas/Cuarto.3DS");
@@ -45,7 +45,7 @@ public class Robot extends BranchGroup
 /*	public BranchGroup createSceneGraph2()
 	{
 		ModelLoader loader = new ModelLoader();
-		Scene s = null;
+		Scene s;
 		try
 		{
 			s =  loader.load("cilindros.3ds");
