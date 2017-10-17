@@ -1,9 +1,9 @@
 package com.rbot.main;
 
 import com.rbot.chat.ProgramaChat;
-import com.rbot.unasigned.Controlll;
-import com.rbot.unasigned.Proto;
-import com.rbot.unasigned.VentanaPanel;
+import com.rbot.main.action.Controlll;
+import com.rbot.virtualuniverse.Proto;
+import com.rbot.main.view.VentanaPanel;
 
 import javax.swing.*;
 import java.awt.*;
@@ -185,7 +185,7 @@ public class VentanaTodo extends JFrame implements Runnable {
     public int getPuerto() {
         return dgs.getLocalPort();
     }
-    
+
     public static void main(String[] args) {
         try {
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());

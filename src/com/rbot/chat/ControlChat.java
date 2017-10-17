@@ -1,7 +1,7 @@
 package com.rbot.chat;
 
-import com.rbot.unasigned.Proto;
-import com.rbot.unasigned.VentanaPanel;
+import com.rbot.virtualuniverse.Proto;
+import com.rbot.main.view.VentanaPanel;
 
 import javax.swing.*;
 import javax.swing.event.*;

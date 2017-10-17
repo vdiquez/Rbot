@@ -1,7 +1,7 @@
 package com.rbot.position;
 
-import com.rbot.body.cam.EstructuraCamara;
-import com.rbot.unasigned.Robot;
+import com.rbot.body.cam.pieces.EstructuraCamara;
+import com.rbot.virtualenviroment.Robot;
 
 import javax.media.j3d.*;
 import javax.vecmath.*;

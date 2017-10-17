@@ -1,9 +1,9 @@
 package com.rbot.body;
 
-import com.rbot.body.cam.EstructuraCamara;
+import com.rbot.body.cam.pieces.EstructuraCamara;
 import com.rbot.body.movement.*;
 import com.rbot.position.Posicionamiento;
-import com.rbot.unasigned.EngranajeBaseMotor;
+import com.rbot.body.cam.pieces.EngranajeBaseMotor;
 import ncsa.j3d.loaders.ModelLoader;
 
 import javax.media.j3d.*;

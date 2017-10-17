@@ -1,10 +1,7 @@
 package com.rbot.chat;
 
-import com.rbot.chat.Chat;
-import com.rbot.chat.ControlChat;
-import com.rbot.unasigned.Proto;
-import com.rbot.unasigned.TxRx;
-import com.rbot.unasigned.VentanaPanel;
+import com.rbot.virtualuniverse.Proto;
+import com.rbot.main.view.VentanaPanel;
 
 import java.net.*;
 import javax.swing.*;
