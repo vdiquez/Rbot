@@ -1,7 +1,9 @@
 package com.rbot.body.movement;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import javax.media.j3d.BranchGroup;
+import javax.media.j3d.Transform3D;
+import javax.media.j3d.TransformGroup;
+import javax.vecmath.Vector3f;
 
 public class MovimientoRueda3 extends BranchGroup {
     Rueda rd;
@@ -172,7 +174,7 @@ public class MovimientoRueda3 extends BranchGroup {
     }
 
     public void localidad1() {
-        //System.out.println("localidad1\n \n \n");
+
         Gy = -24.0f;
 
         trans1.rotY((Gy - gY) * Math.PI / 180);

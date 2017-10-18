@@ -3,9 +3,11 @@ package com.rbot.main.action;
 import com.rbot.main.view.JSpinner1;
 import com.rbot.virtualuniverse.Proto;
 
-import java.awt.event.*;
-import javax.swing.event.*;
 import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Controlll implements ActionListener, ChangeListener {
 

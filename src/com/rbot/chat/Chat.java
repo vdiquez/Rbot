@@ -1,11 +1,12 @@
 package com.rbot.chat;
 
-import com.rbot.virtualuniverse.Proto;
 import com.rbot.main.view.VentanaPanel;
+import com.rbot.virtualuniverse.Proto;
 
 import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import javax.swing.border.TitledBorder;
 import java.awt.*;
-import javax.swing.border.*;
 
 public class Chat extends JFrame {
     Proto pt;

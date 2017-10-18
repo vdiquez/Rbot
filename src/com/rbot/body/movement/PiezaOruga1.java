@@ -1,11 +1,11 @@
 package com.rbot.body.movement;
 
+import com.sun.j3d.loaders.Scene;
 import ncsa.j3d.loaders.ModelLoader;
 
-import javax.media.j3d.*;
-import java.io.*;
-
-import com.sun.j3d.loaders.*;
+import javax.media.j3d.BranchGroup;
+import javax.media.j3d.TransformGroup;
+import java.io.FileNotFoundException;
 
 public class PiezaOruga1 extends TransformGroup {
     public PiezaOruga1() {

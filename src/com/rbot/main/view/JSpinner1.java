@@ -2,8 +2,8 @@ package com.rbot.main.view;
 
 import com.rbot.main.action.Controlll;
 
-import java.awt.*;
 import javax.swing.*;
+import java.awt.*;
 
 
 public class JSpinner1 extends JFrame {

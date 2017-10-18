@@ -1,12 +1,13 @@
 package com.rbot.body.cam.pieces;
 
+import com.sun.j3d.loaders.Scene;
 import ncsa.j3d.loaders.ModelLoader;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
-import java.io.*;
-
-import com.sun.j3d.loaders.*;
+import javax.media.j3d.BranchGroup;
+import javax.media.j3d.Transform3D;
+import javax.media.j3d.TransformGroup;
+import javax.vecmath.Vector3f;
+import java.io.FileNotFoundException;
 
 public class Cremallera extends BranchGroup {
     Camara cm;

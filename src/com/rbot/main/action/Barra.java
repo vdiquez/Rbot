@@ -3,8 +3,8 @@ package com.rbot.main.action;
 import com.rbot.chat.ProgramaChat;
 import com.rbot.main.VentanaTodo;
 
-import java.awt.event.*;
-import java.lang.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Barra implements ActionListener {
     public static void main(String[] args) {

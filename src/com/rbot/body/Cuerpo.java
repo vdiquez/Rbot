@@ -1,17 +1,17 @@
 package com.rbot.body;
 
+import com.rbot.body.cam.EngranajeBaseMotor;
 import com.rbot.body.cam.EstructuraCamara;
 import com.rbot.body.movement.*;
 import com.rbot.position.Posicionamiento;
-import com.rbot.body.cam.EngranajeBaseMotor;
+import com.sun.j3d.loaders.Scene;
 import ncsa.j3d.loaders.ModelLoader;
 
-import javax.media.j3d.*;
-import java.io.*;
-
-import com.sun.j3d.loaders.*;
-
-import javax.vecmath.*;
+import javax.media.j3d.BranchGroup;
+import javax.media.j3d.Transform3D;
+import javax.media.j3d.TransformGroup;
+import javax.vecmath.Vector3f;
+import java.io.FileNotFoundException;
 
 public class Cuerpo extends BranchGroup {
 

@@ -1,7 +1,9 @@
 package com.rbot.body.movement;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import javax.media.j3d.BranchGroup;
+import javax.media.j3d.Transform3D;
+import javax.media.j3d.TransformGroup;
+import javax.vecmath.Vector3f;
 
 public class MovimientoRueda extends BranchGroup {
     Rueda rd;

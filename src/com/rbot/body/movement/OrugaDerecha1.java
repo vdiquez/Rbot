@@ -2,7 +2,8 @@ package com.rbot.body.movement;
 
 import com.rbot.body.pieces.*;
 
-import javax.media.j3d.*;
+import javax.media.j3d.BranchGroup;
+import javax.media.j3d.TransformGroup;
 
 public class OrugaDerecha1 extends BranchGroup {
     Pieza1 p1;

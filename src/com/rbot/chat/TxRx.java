@@ -2,8 +2,10 @@ package com.rbot.chat;
 
 import com.rbot.virtualuniverse.Proto;
 
-import java.net.*;
-import java.io.*;
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.SocketException;
 
 public class TxRx extends Thread {
     private DatagramPacket dgp;

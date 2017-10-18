@@ -2,15 +2,15 @@ package com.rbot.main;
 
 import com.rbot.chat.ProgramaChat;
 import com.rbot.main.action.Controlll;
-import com.rbot.virtualuniverse.Proto;
 import com.rbot.main.view.VentanaPanel;
+import com.rbot.virtualuniverse.Proto;
 
 import javax.swing.*;
+import javax.swing.border.EmptyBorder;
 import java.awt.*;
-import java.awt.event.*;
-import java.io.*;
+import java.awt.event.ActionListener;
+import java.io.IOException;
 import java.net.*;
-import javax.swing.border.*;
 
 
 public class VentanaTodo extends JFrame implements Runnable {

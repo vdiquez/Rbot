@@ -1,13 +1,15 @@
 package com.rbot.chat;
 
-import com.rbot.virtualuniverse.Proto;
 import com.rbot.main.view.VentanaPanel;
+import com.rbot.virtualuniverse.Proto;
 
 import javax.swing.*;
-import javax.swing.event.*;
-import java.awt.event.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.io.IOException;
 import java.net.*;
-import java.io.*;
 
 public class ControlChat implements ChangeListener, KeyListener {
     private DatagramPacket dgp;
