@@ -1,6 +1,6 @@
 package com.rbot.main;
 
-import com.rbot.main.action.Barra;
+import com.rbot.main.actions.MainListener;
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,14 +8,14 @@ import java.awt.*;
 public class Portada extends JFrame//Inicio de la Declaracion de la Clase
 {
     //Escuchador de Eventos
-    Barra barra = new Barra();
+    MainListener mainListener = new MainListener();
 
     public Portada()//Constructor de la Clase Portada
     {
         //Boton que Anuncia el Evento
         JButton boton;
         boton = new JButton("Establecer Comunicacion");
-        boton.addActionListener(barra);
+        boton.addActionListener(mainListener);
         boton.setFont(new Font("Antique Olive", Font.PLAIN, 15));
         Cursor cursor = new Cursor(Cursor.HAND_CURSOR);
         boton.setCursor(cursor);
@@ -47,7 +47,7 @@ public class Portada extends JFrame//Inicio de la Declaracion de la Clase
         JMenuBar mostradores = new JMenuBar();
         JMenu mostrador1 = new JMenu("Sistema");
         JMenuItem sal = new JMenuItem("Terminar");
-        sal.addActionListener(barra);
+        sal.addActionListener(mainListener);
         mostrador1.add(sal);
         this.setJMenuBar(mostradores);
         mostradores.add(mostrador1);
